@@ -27,7 +27,6 @@ imgs_file_name = 'tile_all'
 # imgfile1 = '/home/lab125/kk/OPT-SAR/OPT-SAR-Registration-script/Dataset_Label_Test2/OPT1/' + imgs_file_name + '.png'
 # imgfile2 = '/home/lab125/kk/OPT-SAR/OPT-SAR-Registration-script/Dataset_Label_Test2/SAR1/' + imgs_file_name + '.png'
 
-
 start = time.perf_counter()
 
 # read left image
