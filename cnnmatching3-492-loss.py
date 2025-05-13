@@ -14,18 +14,18 @@ from PIL import Image
 #time count
 start = time.perf_counter()
 
-_RESIDUAL_THRESHOLD = 30
+_RESIDUAL_THRESHOLD = 15
 #Test1nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8
 # imgfile1 = 'df-ms-data/1/df-googleearth-1k-20091227.jpg'
 # imgfile2 = 'df-ms-data/1/df-googleearth-500-20181029.jpg'
 # imgfile1 = 'df-ms-data/1/df-uav-sar-500.jpg'
 
-# imgfile1 = '/media/lab125/HDD11/SAR_dataset/XiangJiang/2600x1500/OPT1.png'
-# imgfile2 = '/media/lab125/HDD11/SAR_dataset/XiangJiang/2600x1500/SAR1.png'
+imgfile1 = '/media/lab125/HDD11/SAR_dataset/XiangJiang/2600x1500/OPT1.png'
+imgfile2 = '/media/lab125/HDD11/SAR_dataset/XiangJiang/2600x1500/SAR1.png'
 
-imgs_file_name = 'tile_984_984'
-imgfile1 = '/home/lab125/kk/OPT-SAR/OPT-SAR-Registration-script/Dataset_Label_Test2/OPT1/' + imgs_file_name + '.png'
-imgfile2 = '/home/lab125/kk/OPT-SAR/OPT-SAR-Registration-script/Dataset_Label_Test2/SAR1/' + imgs_file_name + '.png'
+imgs_file_name = 'tile_all'
+# imgfile1 = '/home/lab125/kk/OPT-SAR/OPT-SAR-Registration-script/Dataset_Label_Test2/OPT1/' + imgs_file_name + '.png'
+# imgfile2 = '/home/lab125/kk/OPT-SAR/OPT-SAR-Registration-script/Dataset_Label_Test2/SAR1/' + imgs_file_name + '.png'
 
 
 start = time.perf_counter()
